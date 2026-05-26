@@ -1,0 +1,4 @@
+*.pdf
+.idea/
+.ipynb_checkpoints/
+.git.bak/
