@@ -1,0 +1,41 @@
+Git 常用命令速查（EE559 作业版）
+
+
+1. 进入课程仓库
+cd "C:\MyZbook\StudyLA\EE\EE559\PDF Homework"
+
+2. 查看当前分支
+git branch
+
+3. 查看当前状态
+git status
+
+4. 创建新的开发分支
+git checkout -b hw1-dev
+
+5. 切换分支
+git checkout master
+或：
+git checkout hw1-dev
+
+6. 添加当前所有修改
+git add .
+
+7. 提交当前版本
+git commit -m "Finish HW1"
+
+8. 查看提交历史
+git log --oneline
+
+9. 合并开发分支到 master
+git checkout master
+git merge hw1-dev
+
+10. 上传到 GitHub
+git push
+
+11. 第一次 push（仅第一次需要）
+git push -u origin master
+
+15. 删除开发分支
+git branch -d hw1-dev
