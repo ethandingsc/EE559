@@ -1,4 +1,5 @@
 *.pdf
+!Homework 1 Data/ee559hw1.pdf
 .idea/
 .ipynb_checkpoints/
 .git.bak/
